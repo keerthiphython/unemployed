@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>unemployement in india data</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #b573ec57;
+        }
+
+        header {
+            background-color: #333;
+            color: #ffffff;
+            text-align: center;
+            padding: 1rem 0;
+
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <center>
+        <div class="header-content">
+            <!-- unemployement data -->
+            <img src="./image/kumar.JPG" alt="unemployement data" class="male and female">
+            <h1>india</h1>
+            <p>keerthana Edunet Foundation</p>
+        </div>
+        </center>
+    </header>
+
+
+
+
+    <section>
+
+    <footer>
+        <center>
+        <div class="header-content">
+            <!-- unemployement data chart -->
+            <img batch src="./btc/meera.JPG" alt="unemployement data chart" class="male and female">
+            <h1>unemployement</h1>
+            <p>keerthana Edunet Foundation</p>
+        </div>
+        </center>
+    </footer>
+    </section>
+
+    <script>
+        // Smooth scrolling to section when clicking on navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+
+                const targetId = this.getAttribute('href').substring(1);
+                const targetElement = document.getElementById(targetId);
+
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop,
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+        </script>
+</body>
+</html>
